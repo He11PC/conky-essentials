@@ -105,3 +105,17 @@ You can also change some settings to display the widget on your prefered monitor
 *Remove the "--" to uncomment and enable the setting.*
 
 More information on [Conky website](https://conky.cc/config_settings).
+
+---
+
+## Credits and Third-Party Licenses:
+
+**Widget:** Licensed under GNU GPLv3 by HellPC
+
+**Weather Icons font:** By Erik Flower
+- Font: [SIL OFL 1.1](http://scripts.sil.org/OFL)
+- Code: [MIT License](http://opensource.org/licenses/mit-license.html)
+- Documentation: [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+
+**Weather data provider:** Visual Crossing  
+[https://www.visualcrossing.com/](https://www.visualcrossing.com/)

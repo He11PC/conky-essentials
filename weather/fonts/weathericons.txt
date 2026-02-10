@@ -1,6 +1,19 @@
-https://erikflowers.github.io/weather-icons/
+Weather icons font made by Erik Flower
+
+Licenses:
+    Font: SIL OFL 1.1 (http://scripts.sil.org/OFL)
+    Code: MIT License (http://opensource.org/licenses/mit-license.html)
+    Documentation: CC BY 3.0 (http://creativecommons.org/licenses/by/3.0/)
+
+Website : https://erikflowers.github.io/weather-icons/
+
+---
 
 Install this font on your system to use it
+
+---
+
+Icons used in this widget:
 
 moon-0		f095
 moon-1		f096
