@@ -1,0 +1,65 @@
+https://erikflowers.github.io/weather-icons/
+
+Install this font on your system to use it
+
+moon-0		f095
+moon-1		f096
+moon-2		f097
+moon-3		f098
+moon-4		f099
+moon-5		f09a
+moon-6		f09b
+moon-7		f09c
+moon-8		f09d
+moon-9		f09e
+moon-10		f09f
+moon-11		f0a0
+moon-12		f0a1
+moon-13		f0a2
+moon-14		f0a3
+moon-15		f0a4
+moon-16		f0a5
+moon-17		f0a6
+moon-18		f0a7
+moon-19		f0a8
+moon-20		f0a9
+moon-21		f0aa
+moon-22		f0ab
+moon-23		f0ac
+moon-24		f0ad
+moon-25		f0ae
+moon-26		f0af
+moon-27		f0b0
+
+snow					f01b
+snow-showers-day		f00a
+snow-showers-night		f02a
+thunder-rain			f01d
+thunder-showers-day		f00e
+thunder-showers-night	f02c
+rain					f01a
+showers-day				f009
+showers-night			f029
+fog						f014
+wind					f050
+cloudy					f041
+partly-cloudy-day		f002
+partly-cloudy-night		f086
+clear-day				f00d
+clear-night				f02e
+
+UV			f072
+Temp low	f053
+Temp high	f055
+Rain drops	f04e
+Umbrella	f084
+Tornado		f056
+
+Wind-0		f044
+Wind-45		f043
+Wind-90		f048
+Wind-135	f087
+Wind-180	f058
+Wind-225	f057
+Wind-270	f04d
+Wind-315	f088
