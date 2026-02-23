@@ -112,10 +112,11 @@ More information on [Conky website](https://conky.cc/config_settings).
 
 **Widget:** Licensed under GNU GPLv3 by HellPC
 
-**Weather Icons font:** By Erik Flower
+**json.lua:** Licensed under MIT by [rxi](https://github.com/rxi/json.lua)
+
+**Weather Icons font:** By [Erik Flower](https://erikflowers.github.io/weather-icons/)
 - Font: [SIL OFL 1.1](http://scripts.sil.org/OFL)
 - Code: [MIT License](http://opensource.org/licenses/mit-license.html)
 - Documentation: [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
 
-**Weather data provider:** Visual Crossing  
-[https://www.visualcrossing.com/](https://www.visualcrossing.com/)
+**Weather data provider:** [Visual Crossing](https://www.visualcrossing.com/)
