@@ -13,7 +13,7 @@ It comes in 3 variants:
 
 ---
 
-## Installation:
+## Installation
 
 You obviously need to install **Conky** first.  
 If you want to display the weather forecast, **lua** and **lua-sec** are required.
@@ -26,7 +26,7 @@ Make the **start.sh** and **stop.sh** scripts executable:
 
 ---
 
-## Configuration:
+## Configuration
 
 Inside the *Essentials* directory, you can find one *.conf* file for each widget variants.
 
@@ -48,7 +48,7 @@ Open the one you want to use with a text editor and change the following lines:
 
 ---
 
-## Weather:
+## Weather
 
 **The weather forecast is provided by the [Visual Crossing API](https://www.visualcrossing.com/weather-api/)**
 
@@ -72,7 +72,7 @@ The *settings.lua* file contains the necessary explanations.
 
 ---
 
-## Usage:
+## Usage
 
 You can start the widget manually from a terminal:
 
@@ -86,7 +86,7 @@ Or automatically after login with an auto-start entry according to your desktop 
 
 ---
 
-## Troubleshooting:
+## Troubleshooting
 
 If you are using a custom font size or display scaling, you may have to play with *offset* and *aling* values inside the `conky.text = [[ ... ]]` section of the *.conf* files.
 
@@ -108,7 +108,7 @@ More information on [Conky website](https://conky.cc/config_settings).
 
 ---
 
-## Credits and Third-Party Licenses:
+## Credits and Third-Party Licenses
 
 **Widget:** Licensed under GNU GPLv3 by HellPC
 
