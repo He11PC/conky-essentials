@@ -9,7 +9,15 @@ It comes in 3 variants:
 - **weather_simple:** same as *no_weather* plus current weather conditions
 - **weather_details:** same as *weather_simple* plus next 4 hours and next 2 days forecasts
 
-![no_weather](screenshots/no_weather.png)   ![weather_simple](screenshots/weather_simple.png)   ![weather_details](screenshots/weather_details.png)
+<br>
+
+<p align="center">
+    <img src="screenshots/no_weather.png" alt="No weather" />
+    &emsp;
+    <img src="screenshots/weather_simple.png" alt="Weather simple" />
+    &emsp;
+    <img src="screenshots/weather_details.png" alt="Weather details" />
+</p>
 
 <br>
 
@@ -84,7 +92,6 @@ Or automatically after login with an auto-start entry according to your desktop 
 
 ![KDE](screenshots/autostart.png)
 
-<br>
 
 ## Troubleshooting
 
