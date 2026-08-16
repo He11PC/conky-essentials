@@ -11,7 +11,7 @@ It comes in 3 variants:
 
 ![no_weather](screenshots/no_weather.png)   ![weather_simple](screenshots/weather_simple.png)   ![weather_details](screenshots/weather_details.png)
 
----
+<br>
 
 ## Installation
 
@@ -24,7 +24,7 @@ Make the **start.sh** and **stop.sh** scripts executable:
 > `chmod u+x /home/username/.config/conky/Essentials/scripts/start.sh`  
 > `chmod u+x /home/username/.config/conky/Essentials/scripts/stop.sh`
 
----
+<br>
 
 ## Configuration
 
@@ -46,7 +46,7 @@ Open the one you want to use with a text editor and change the following lines:
 
 > In a terminal, execute `ip addr` to find it. For example: *enp5s0* or *wlan0*
 
----
+<br>
 
 ## Weather
 
@@ -70,7 +70,7 @@ Finally, open */weather/VisualCrossing/var/settings.lua* with a text editor and 
 
 The *settings.lua* file contains the necessary explanations.
 
----
+<br>
 
 ## Usage
 
@@ -84,7 +84,7 @@ Or automatically after login with an auto-start entry according to your desktop 
 
 ![KDE](screenshots/autostart.png)
 
----
+<br>
 
 ## Troubleshooting
 
@@ -106,7 +106,7 @@ You can also change some settings to display the widget on your prefered monitor
 
 More information on [Conky website](https://conky.cc/config_settings).
 
----
+<br>
 
 ## Credits and Third-Party Licenses
 
