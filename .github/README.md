@@ -62,6 +62,10 @@ Open the one you want to use with a text editor and change the following lines:
 
 First, install the [Weather Icons font](https://erikflowers.github.io/weather-icons/) from the *erikflowers* GitHub repository or the */weather/fonts/* directory.
 
+And make the **Simple.lua** and/or **Details.lua** executable, depending on the one you want to use:
+> `chmod u+x /home/username/.config/conky/Essentials/weather/VisualCrossing/Simple.lua`  
+> `chmod u+x /home/username/.config/conky/Essentials/weather/VisualCrossing/Details.lua`
+
 Next, go to the [Visual Crossing](https://www.visualcrossing.com/) website and create a free account to get your **API key**.
 
 Finally, open */weather/VisualCrossing/var/settings.lua* with a text editor and change:
@@ -90,26 +94,35 @@ You can start the widget manually from a terminal:
 
 Or automatically after login with an auto-start entry according to your desktop environment.
 
-![KDE](screenshots/autostart.png)
-
+<br>
 
 ## Troubleshooting
 
-If you are using a custom font size or display scaling, you may have to play with *offset* and *aling* values inside the `conky.text = [[ ... ]]` section of the *.conf* files.
+If you are using a custom font size or display scaling, you may have to play with *offset* and *aling* values inside the `conky.text = [[ ... ]]` section of the *.conf* files and/or change the *scaling_factor* inside **background/settings.lua**.
 
-You can also change some settings to display the widget on your prefered monitor and position:
+If you are using Wayland, these settings appear to be the most compatible:
 
-    -- Wayland --
+    -- Wayland
+        out_to_x = false,
+        out_to_wayland = true,
+
+    -- Window --
+        own_window_type = 'override',
+
+If you are using X11, try these settings:
+
+    -- Wayland
         --out_to_x = false,
         --out_to_wayland = true,
 
-    -- Size and position --
-        --xinerama_head = 2,
-        --alignment = 'top_right',
-        --gap_x = 10,
-        --gap_y = 5,
+    -- Window --
+        own_window_type = 'desktop',
 
-*Remove the "--" to uncomment and enable the setting.*
+If you are using an older version of Conky, try uncommenting these lines:
+
+    -- Window --
+        own_window_transparent = true,
+        own_window_argb_visual = true,
 
 More information on [Conky website](https://conky.cc/config_settings).
 
